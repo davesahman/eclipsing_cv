@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Program to fit gaussian to light curve- first attempt!
 # D Sahman Nov 2018
 #=======================================================
