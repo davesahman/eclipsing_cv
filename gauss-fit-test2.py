@@ -133,9 +133,9 @@ print("Start of eclipse")
 print("================")
 print("init_vals = ", init_vals)
 print ("best vals = ", best_vals)
-print(" amp = %.3f +/- %.3f" % (best_vals[0], np.sqrt(covar[0,0])))
-print(" cen = %.3f +/- %.3f" % (best_vals[1], np.sqrt(covar[1,1])))
-print(" wid = %.3f +/- %.3f" % (best_vals[2], np.sqrt(covar[2,2])))
+print(" amp1 = %.3f +/- %.3f" % (best_vals[0], np.sqrt(covar[0,0])))
+print(" cen1 = %.3f +/- %.3f" % (best_vals[1], np.sqrt(covar[1,1])))
+print(" wid1 = %.3f +/- %.3f" % (best_vals[2], np.sqrt(covar[2,2])))
 
 # Second Gaussain fit
 
@@ -174,7 +174,7 @@ axs[1, 1].plot(t2, gaussian(t2, *best_vals2), label="fit")
 axs[1, 1].plot(t2, g2, label="data")
 axs[1, 1].legend()
 ax = axs[1, 1]
-ax.set_xlabel("Time (days)")
+ax.set_xlabel("Time (secs)")
 ax.set_title("Second Gaussian Fit")
 plt.show()
 
