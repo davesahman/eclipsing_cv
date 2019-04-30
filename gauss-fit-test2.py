@@ -174,7 +174,7 @@ axs[1, 1].plot(t2, gaussian(t2, *best_vals2), label="fit")
 axs[1, 1].plot(t2, g2, label="data")
 axs[1, 1].legend()
 ax = axs[1, 1]
-ax.set_xlabel("Time (secs)")
+ax.set_xlabel("Time (days)")
 ax.set_title("Second Gaussian Fit")
 plt.show()
 
