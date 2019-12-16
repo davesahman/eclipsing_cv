@@ -2,7 +2,7 @@
 
 # PLots lightcurve from ucam/uspec files
 # User needs to add file names
-# on command line when invoking.
+# on command line when invoking 
 # Copied from Athena July 2019 by D Sahman
 # ===============================
 
